@@ -25,4 +25,5 @@ mongoose.connection.on("error", () => {
     console.log("error connecting to database");
 });
 
+console.log(process.env)
 module.exports = mongoose

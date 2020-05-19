@@ -9,8 +9,8 @@ const {
     MONGO_PORT=27017
 } = process.env;
 
-const DBHost = `${MONGO_USER}:${MONGO_PASS}@${MONGO_URL}:${MONGO_PORT}/${MONGO_DB}`;
-// Sometimes you will be needing this! ?authSource=admin
+const DBHost = `${MONGO_USER}:${MONGO_PASS}@${MONGO_URL}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
+
 
 //Database Connection
 mongoose.connect(`mongodb://${DBHost}`, {

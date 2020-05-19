@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "author": "Firas Chbiki",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^4.0.1",
+    "express-prom-bundle": "^5.1.5",
+    "mocha": "^7.0.0",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "prom-client": "^12.0.0",
+    "supertest": "^4.0.2",
+    "url-pattern": "^1.0.3"
+  }
+}

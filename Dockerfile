@@ -10,5 +10,5 @@ ENV MONGO_USER=
 ENV MONGO_PASS=
 ENV MONGO_DB=
 COPY --chown=node:node . .
-EXPOSE 8000
+EXPOSE $PORT
 CMD [ "node", "index.js" ]

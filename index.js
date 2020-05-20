@@ -4,7 +4,7 @@ const database = require('./libs/database');
 const bodyParser = require("body-parser");
 
 // Defining Vars
-const URL = "localhost"
+const URL = "0.0.0.0"
 const port = process.env.PORT || "3000";
 
 // App Config
